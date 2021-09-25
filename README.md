@@ -1,0 +1,1 @@
+Hi interested in stocks or you invest in stocks? by using this we can check that we are in profit or in loss and we can get balance also (no profit, no loss). Type initial price, quntity of stocks and current price then we will get output if we are in profit, in loss or no profit, no loss.
