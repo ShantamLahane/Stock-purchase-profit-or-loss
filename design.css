@@ -2,6 +2,7 @@ body {
      text-align: center;
      background-color: rgb(85, 169, 248);
      color: white;
+     font-family: 'EB Garamond', serif;
 
 }
 main {
@@ -10,6 +11,7 @@ main {
      margin: auto; 
      border: 3rem;    
      border-radius: 1rem;
+     font-family: 'EB Garamond', serif;
 }
 
 
@@ -82,6 +84,7 @@ label {
      border-top-right-radius: 1rem;
      text-align: center;
      font-size: large;
+     font-family: 'EB Garamond', serif;
   }
   
 .footer .link {
