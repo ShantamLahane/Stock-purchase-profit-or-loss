@@ -15,7 +15,7 @@ main {
 
 label {
      display: block;
-     padding-bottom: 2rem;
+     padding: 2rem;
      color: rgb(85, 169, 248);
      font-size: larger;
      padding-top: 1rem;
@@ -72,7 +72,8 @@ label {
      padding-bottom: 1rem;
      margin-top: 2rem;
      background-color: black;
-     border-radius: 1rem;
+     border-bottom-left-radius: 1rem;
+     border-bottom-right-radius: 1rem;
 
 }
 
@@ -92,15 +93,15 @@ label {
      font-size: larger;
 }
   
-  .footer ul {
+.footer ul {
        padding-inline-start: 0px;
-  }
+}
   
-  .footer .footer-header {
+.footer .footer-header {
        font-weight: bolder;
        font-size: large;
        padding-top: 1rem;
-  }
+}
   
   
 .list-non-bullet {
