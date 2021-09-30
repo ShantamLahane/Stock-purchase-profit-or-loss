@@ -22,8 +22,8 @@ function calculateProfitAndLoss(initial, quantity, current) {
           var lossPercentage = (loss / initial) * 100;
           console.log(loss)
           // console.log("Hey the loss is ${loss} and the percent is ${lossPercentage}%");
-
           var outputLoss = 'Hey the loss is ' + loss + 'and the percent is ' + lossPercentage
+
           showOutput(outputLoss);   
      } else if (current > initial) {
           var profit = (current - initial) * quantity

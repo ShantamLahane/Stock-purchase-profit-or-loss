@@ -1,12 +1,22 @@
 body {
      text-align: center;
-     background-color: black;
+     background-color: rgb(85, 169, 248);
      color: white;
+
 }
+main {
+     background-color: white;
+     width: 50%;
+     margin: auto;     
+}
+
 
 label {
      display: block;
      padding-bottom: 2rem;
+     color: rgb(85, 169, 248);
+     font-size: larger;
+     padding-top: 1rem;
 }
 
 #initial-price {
@@ -16,8 +26,8 @@ label {
      margin: auto;
      background-color: black;
      border: 2rem;
-     color: white;
-     font-size: medium;
+     color: rgb(85, 169, 248);
+     font-size: larger;
 }
 
 #stock-quantity {
@@ -27,8 +37,8 @@ label {
      margin: auto;
      background-color: black;
      border: 2rem;
-     color: white;
-     font-size: medium;
+     color: rgb(85, 169, 248);
+     font-size: larger;
 }
 
 #current-price {
@@ -38,8 +48,8 @@ label {
      margin: auto;
      background-color: black;
      border: 2rem;
-     color: white;
-     font-size: medium;
+     color: rgb(85, 169, 248);
+     font-size: larger;
 }
 
 #submit-btn {
@@ -47,28 +57,33 @@ label {
      padding-right: 0.5rem;
      padding-top: 0.8rem;
      padding-bottom: 0.8rem;
-     font-size: large;
+     font-size: larger;
      border-radius: 0.5rem;
-     background-color: gray;
+     background-color: black;
+     color: rgb(85, 169, 248);
 }
 
+#output-box {
+     padding-top: 2rem;
+     font-size: large;
 
+}
 
 .footer {
-     padding: 1rem 1rem;  
+     padding: 1rem;  
      border-top-right-radius: 1rem;
      text-align: center;
      font-size: large;
   }
   
-  .footer .link {
-       font-size: large;
-       color: gray;
-  }
+.footer .link {
+    font-size: large;
+    color: white;
+}
   
-  .footer .social-link {
-       font-size: larger;
-  }
+.footer .social-link {
+     font-size: larger;
+}
   
   .footer ul {
        padding-inline-start: 0px;
@@ -96,4 +111,13 @@ label {
      padding: 0.5rem 1rem;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
 
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
